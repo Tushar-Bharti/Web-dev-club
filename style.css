@@ -1,26 +1,26 @@
 @font-face {
     font-family: "ccd";
-    src: url("/fonts/ccd.ttf");
+    src: url("./fonts/ccd.ttf");
 }
 @font-face {
   font-family: "minecraft";
-  src : url("/fonts/Minecraft.ttf");
+  src : url("./fonts/Minecraft.ttf");
 }
 @font-face {
   font-family: "cs";
-  src : url("/fonts/cs.ttf");
+  src : url("./fonts/cs.ttf");
 }
 @font-face {
   font-family: "af";
-  src : url("/fonts/af.ttf");
+  src : url("./fonts/af.ttf");
 }
 @font-face {
   font-family: "ccr";
-  src : url("/fonts/ccr.ttf");
+  src : url("./fonts/ccr.ttf");
 }
 @font-face {
   font-family: "ccrb";
-  src : url("/fonts/ccrb.ttf");
+  src : url("./fonts/ccrb.ttf");
 }
 html.light,
 body.light {
