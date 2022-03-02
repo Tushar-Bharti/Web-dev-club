@@ -1,0 +1,370 @@
+@font-face {
+    font-family: "ccd";
+    src: url("/fonts/ccd.ttf");
+}
+@font-face {
+  font-family: "minecraft";
+  src : url("/fonts/Minecraft.ttf");
+}
+@font-face {
+  font-family: "cs";
+  src : url("/fonts/cs.ttf");
+}
+@font-face {
+  font-family: "af";
+  src : url("/fonts/af.ttf");
+}
+@font-face {
+  font-family: "ccr";
+  src : url("/fonts/ccr.ttf");
+}
+@font-face {
+  font-family: "ccrb";
+  src : url("/fonts/ccrb.ttf");
+}
+html.light,
+body.light {
+  height: auto;
+  width: auto%;
+  scroll-behavior: smooth;
+  background-color: #5700a3;
+}
+
+.introBlock {
+  margin:auto;
+  display: block;
+  width: 75%;
+  height: auto;
+  padding: 10px 10px 10px 10px;
+  background-color: #8700ff;
+    box-shadow: 5px 5px 10px black;
+  font-size:36px;
+  border-radius: 20px;
+  text-align:center;
+  font-family: "ccrb";
+  color : #ffffff;
+      transition-duration : 500ms , 500ms ;
+  transition-property : background-color , color;
+}
+
+.introBlock:hover {
+    transition-duration : 500ms , 500ms ;
+  transition-property : background-color , color;
+  color : #8700ff;
+  background-color : #ffffff;
+
+  box-shadow: 5px 5px 10px black;
+}
+
+h1.header {
+margin:auto;
+font-size: 83px;
+text-align: center;
+font-family: "ccd";
+  color : rgb(225,225,225);
+}
+h2.header {
+margin:auto;
+font-size: 50px;
+text-align: center;
+font-family: "ccrb";
+  color : rgb(225,225,225);
+}
+
+.introBlockHeader {
+
+  margin:auto;
+  display: block;
+  width: 75%;
+  height: auto;
+  padding: 10px 10px 10px 10px;
+  background-color: #8700ff;
+  font-size:20px;
+  border-radius: 20px;
+  text-align:center;
+  font-family: "ccrb";
+  color : #ffffff;
+  
+}
+
+.sidenav {
+  height: 100%; 
+  width: 0; 
+  position: fixed; 
+  z-index: 5; 
+  top: 0; 
+  left: 0;
+  background-color: #8c00ff; 
+  overflow-x: hidden; 
+  padding-top: 60px; 
+  transition: 0.5s;
+  font-family: "ccd";
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #ffffff;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #8700ff;
+  background-color : #ffffff
+}
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 20px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+} 
+
+.navbar {
+  top : 0;
+  left : 0;
+  diplay : block;
+  z-index: 2;
+  background-color : #8700ff;
+  width : 100%;
+  padding : 5px 5px 5px 5px;
+  position : fixed;
+}
+
+.button {
+  background-color: #8700ff;
+  color: white;
+  padding : 10px 10px 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border : none;
+  font-size: 12px;
+}
+
+.button:hover {
+  background-color : white;
+  color : #8700ff;
+}
+
+.introBlockOpposite {
+  margin:auto;
+  display: block;
+  width: 75%;
+  height: auto;
+  padding: 10px 10px 10px 10px;
+  background-color: #ffffff;
+    box-shadow: 5px 5px 10px black;
+  font-size:36px;
+  border-radius: 20px;
+  text-align:center;
+  font-family: "ccrb";
+  color : #8700ff;
+      transition-duration : 500ms , 500ms ;
+  transition-property : background-color , color;
+}
+
+.introBlockOpposite:hover {
+    transition-duration : 500ms , 500ms ;
+  transition-property : background-color , color;
+  color : white;
+  background-color : #8700ff;
+
+  box-shadow: 5px 5px 10px black;
+}
+
+h1.headerOpposite {
+margin:auto;
+font-size: 83px;
+text-align: center;
+font-family: "ccrb";
+  color : #8700ff;
+}
+h2.headerOpposite {
+margin:auto;
+font-size: 50px;
+text-align: center;
+font-family: "ccrb";
+  color : #8700ff;
+}
+
+.introBlockHeaderOpposite {
+
+  margin:auto;
+  display: block;
+  width: 75%;
+  height: auto;
+  padding: 10px 10px 10px 10px;
+  background-color: #ffffff;
+  font-size:20px;
+  border-radius: 20px;
+  text-align:center;
+  font-family: "ccrb";
+  color : #8700ff;
+  
+}
+
+
+.container {
+  position: relative;
+  width: 100%;
+    margin: auto;
+}
+
+.image {
+  display: block;
+  margin:auto;
+  width: 50%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #8700ff;
+overflow : hidden;
+  
+  width: 100%;
+  height:0;
+  transition: .5s ease;
+}
+
+.container:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+
+.overlay : hover {
+      transition-duration : 500ms , 500ms ;
+  transition-property : background-color , color;
+  color : white;
+  background-color : #8700ff;
+  box-shadow: 5px 5px 10px black;
+}
+
+.text {
+  padding-top : 50px;
+  color: #ffffff;
+  font-size: 20px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.website {
+  color : #ffffff;
+}
+
+.containerOpposite {
+  position: relative;
+  width: 100%;
+    margin: auto;
+}
+
+.overlayOpposite {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #ffffff;
+overflow : hidden;
+  
+  width: 100%;
+  height:0;
+  transition: .5s ease;
+}
+
+.containerOpposite:hover .overlayOpposite {
+  bottom: 0;
+  height: 100%;
+}
+
+.overlayOpposite : hover {
+      transition-duration : 500ms , 500ms ;
+  transition-property : background-color , color;
+  color : #8700ff;
+  background-color : #ffffff;
+  box-shadow: 5px 5px 10px black;
+}
+
+.textOpposite {
+  padding-top : 50px;
+  color: #8700ff;
+  font-size: 20px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.websiteOpposite {
+  color : #8700ff;
+}
+
+
+@media screen and (max-width: 450px) {
+  .text {
+    font-size : 15px;
+  }
+  .image {
+    width: 100%;
+  }
+  .container:hover .overlay {
+  overflow : scroll;
+  }
+    .containerOpposite:hover .overlayOpposite {
+  overflow : scroll;
+  }
+  .introBlockHeader {
+    width : auto;
+  }
+      .introBlockHeaderOpposite {
+    width : auto;
+  }
+} 
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #8700ff; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ffffff; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #5700a3; 
+}
+
+.socials {
+  left : 0;
+  text-align: left;
+  padding-left : 10px;
+  display:inline;
+}
