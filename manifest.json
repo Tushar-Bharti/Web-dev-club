@@ -6,12 +6,12 @@
   "display": "standalone",
   "description": "my Home Page",
   "icons" : [{
-    "src" : "images/ayakaGithub.jpg",
+    "src" : "images/aoijs-new.png",
     "sizes" : "192x192",
-    "type" : "image/jpg"
+    "type" : "image/png"
   },{
-    "src" : "images/ayakaGithub.jpg",
+    "src" : "images/aoijs-new.png",
     "sizes" : "192x192",
-    "type" : "image/jpg"
+    "type" : "image/png"
   }]
 }
