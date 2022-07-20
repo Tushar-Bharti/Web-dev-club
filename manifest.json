@@ -4,6 +4,8 @@
   "short_name": "HomePage",
   "start_url": ".",
   "display": "standalone",
+  "theme_color" : "#8700ff",
+  "background_color" : "#ffffff",
   "description": "my Home Page",
   "icons" : [{
     "src" : "images/aoijs-new.png",
